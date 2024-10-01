@@ -7,25 +7,49 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>DNN - Portfolio</title>
 </head>
-
 <body>
-    <div class="splash flex-row">
-        <div class="half-screen-horizontal">
+    <nav>
+        <p style="width:30%;"></p>
+        <h2 style="width:40%; text-align: center;">David Nicholas Nielsen</h2>
+        <div style="width:30%;">
+            <ul>
+                <li>
+                    <a href="https://github.com/TheDavidNN">
+                        <img src="images\github-mark\github-mark-white.png" alt="Link to GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/david-nielsen-5158a5304/">
+                        <img src="images\LinkedIn-Logos\In\Digital\White\1x\In-White-72.png" alt="Link to LinkedIn">
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="half-screen-horizontal flex-column" style="background-color: #222222;">
-            <div class="half-screen-vertical light-gray" style="background-color: #333333;">
-                <div class="text-container center-content">
-                    <h1 style="padding-bottom: 30px; font-size: 3rem;">David Nicholas Nielsen</h1>
-                    <p>Student at IT University of Copenhagen studying Software Development and volunteer at The Danish Youth Association of Science's Game Development Camp. Outside my own projects, I volunteer and work teaching math and programming to kids and young adults.</p>    
-                </div>
-                </div>
-            <div class="half-screen-vertical dark-gray";>
-                <div class="text-container center-content">
-                    <h1 style="padding-bottom: 30px; font-size: 3rem;">Projects</h1>
-                    <p>You can find my previous and upcoming projects here!</p>
-                    <a class="splash-link center-text" href="./pages/projects.html">Projects</a>
-                </div>
+    </nav>
+    <header>
+        <p>Student at IT University of Copenhagen studying Software Development and volunteer at The Danish Youth Association of Science's Game Development Camp. Outside my own projects, I volunteer and work teaching math and programming to kids and young adults.</p>
+    </header>
+    <div id="projects-header">
+        <h1>Projects</h1>
+    </div>
+    <hr>
+    <div id="projects-container">
+        <div class="project">
+            <div class="project-text">
+                <h2>Map of Denmark</h2>
+                <p>First-year project at ITU - Map of Denmark. This Java app was developed to read OSM files and render an interactive map.</p>
+                <a href="https://github.com/TheDavidNN/MapOfDenmark">GitHub repos</a>
             </div>
+            <img src="./images/RTreeFigure.png" alt="Shows the MBRs created by the app's R-Tree.">
+        </div>
+        <hr>
+        <div class="project project-reverse">
+            <div class="project-text project-text-right">
+                <h2>Untitled Video Game</h2>
+                <p>Work in progress - not ready for showing. The goal is a 2D pixel-art game to help teach chemistry to teens and young adults. Developed in Unity.</p>
+                <!--<a >Read More</a>-->
+            </div>
+            <img>
         </div>
     </div>
     <script>console.log("Github!");</script>
