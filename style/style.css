@@ -3,11 +3,10 @@
     margin: 0;
     font-family: sans-serif;
     line-height: 2;
-    box-sizing: border-box;
 }
 
 a, p{
-    font-size: 12px;
+    font-size: 18px;
 }
 
 header, nav {
@@ -16,11 +15,10 @@ header, nav {
 
 nav {
     background-color: #282828;
-    padding: 0px 32px;
+    padding: 16px 32px;
     display:flex;
     flex-direction: row;
     align-items: center;
-    height: 50px;
     /*justify-content: space-between;*/
 }
 
@@ -43,8 +41,8 @@ nav div ul li a {
 }
 
 nav div ul li a img{
-    width: 30px;
-    height: 30px;
+    width: 48px;
+    height: 48px;
     vertical-align: middle;
 }
 
@@ -61,6 +59,7 @@ header{
 #projects-container{
     background-color: white;
     color:black;
+    padding-bottom: 200px;
 }
 
 .project {
